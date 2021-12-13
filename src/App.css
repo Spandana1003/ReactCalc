@@ -1,0 +1,45 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+button{
+  border: 2px black solid;
+  width: 125px;
+  padding: 10px;
+  margin: 1px;
+  color: white;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+  border: 2px black solid;
+  color: black;
+  background-color: white;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+
+  width: 28vw;
+  border: 1px solid black;
+}
+
+.value{
+  text-align: right;
+  width: 100%;
+  background-color: white;
+}
+
+.number-buttons-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.operations{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
